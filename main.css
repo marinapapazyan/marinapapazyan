@@ -285,22 +285,22 @@ height: 3000px;
 
 .critical text {
 	line-height:1.7;
-	font-family: Arial, Helvetica, sans-serif!important;
+	font-family: 'GT America'!important;
 	font-size: 16px;
 	letter-spacing: 0.7px;
 	word-spacing: 1px;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .main-carousel {
-	height: 700px!important;
+	height: 500px;
 	width: 70%;
 	left: 30%;
 	padding-top: 65px;
 }
 
 .carousel-cell {
-	height: 100%!important;
+	height: inherit!important;
 	width: auto;
 	padding-right: 10px;
 }
