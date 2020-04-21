@@ -293,7 +293,7 @@ height: 3000px;
 }
 
 .main-carousel {
-	height: 500px;
+	height: 700px!important;
 	width: 70%;
 	left: 30%;
 	padding-top: 65px;
