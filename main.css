@@ -299,8 +299,8 @@ height: 3000px;
 	padding-top: 65px;
 }
 
-.carousel-cell {
-	height: 500px;
+.main-carousel img {
+	height: 400px;
 	width: auto;
 	padding-right: 10px;
 }
@@ -562,7 +562,7 @@ height: 2000px;
 	padding-top: 75px;
 }
 
-.carousel-cell img {
+.main-carousel img {
 	height: 300px;
 	width: auto;
 	padding-right: 5px;
