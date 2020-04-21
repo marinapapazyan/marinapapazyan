@@ -1,0 +1,609 @@
+@charset "utf-8";
+
+@font-face {
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 300;
+font-display: fallback;
+src: local('Roboto Mono'), url('fonts/RobotoMono-Regular.ttf') format('truetype');
+}
+
+/* Font 'GT America': Copyright 2016 by Nol Leu. All rights reserved. */
+
+@font-face {
+font-family: 'GT America';
+font-style: normal;
+font-weight: 200;
+font-display: fallback;
+src: local('GT America Light'), url('fonts/GT America Light.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'GT America';
+font-style: normal;
+font-weight: 300;
+font-display: fallback;
+src: local('GT America Regular'), url('fonts/GT America Regular.ttf') format('truetype');
+}
+
+/* Font 'GT America': Copyright 2016 by Nol Leu. All rights reserved. */
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	scroll-behavior: smooth;
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+
+body {
+	margin: 0;
+	color: #000;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 99.9999999%;
+	line-height:1.7;
+	font-family: 'GT America', Arial, Helvetica, sans-serif!important;
+	color: #040404;
+	font-size: 17px;
+	letter-spacing: 0.7px;
+	word-spacing: 1px;
+	font-weight: 300;
+	overflow-x: hidden;
+}
+
+/* MENU */
+
+.white {
+	background-color: white;
+	box-shadow: 0 0 10px 15px white;
+}
+
+.gray {
+	background-color: #e7e7ef;
+	box-shadow: 0 0 10px 15px #e7e7ef;
+}
+
+#menu {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+	position: fixed;
+	width: 100%;
+	margin-top: 7px;
+	z-index: 1;
+	line-height: 1;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+}
+
+#menu a {
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+	padding-left: 1%;
+}
+
+#sub a {
+	display: inline-block;
+}
+
+#sub a:hover {
+	font-style: italic;
+}
+
+#menu .active {
+	font-style: italic;
+}
+
+h2 {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+	font-size: 18px;
+		line-height: 1;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+}
+
+/* MAIN */
+
+#page {
+	position: absolute;
+	top: 60px;
+	width: 100%;
+	overflow: hidden;
+}
+
+#main-page {  
+position: fixed;
+top: 60px;
+width: 3000px;
+height: 3000px;
+	background-image: url("img/main.png");
+  background-repeat: repeat;
+}
+
+#main-page:hover {
+	transform: rotate(180deg);
+}
+
+
+/* INDEX */
+
+.index {
+    top: 100px;
+	position: relative;
+	height: 100%;
+	display: block;
+	width: 1033px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.box {
+	display: inline-table;
+	position: relative;
+	padding: 20px;
+	width: 300px;
+	height: 340px;
+	opacity: 1;
+	letter-spacing: 0.7px;
+	word-spacing: 0px;
+}
+
+.box a {
+	text-decoration: none;
+	color: black;
+}
+
+.box h1 {
+	font-size: 15px;
+	text-align: center;
+	line-height: 1.3;
+	font-weight: 300;
+}
+
+.box h2 {
+	font-weight: 200;
+	font-size: 14px;
+}
+
+.box p {
+	font-size: 14px;
+	text-align: center;
+	margin-top: -4px;
+	line-height: 1.2;
+	font-weight: 200;
+	font-style: italic;
+}
+
+.box img {
+	width: 100%;
+	height: auto;
+}
+
+.box:hover img {
+	filter: brightness(100%);
+}
+
+/* INDEX PAGES */
+
+.display {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background-color: white;
+}
+
+.text {
+	position: relative;
+	top: 50px;
+	width: 50%;
+	height: 90%;
+	padding-bottom: 100px;
+	overflow: hidden;
+	font-weight: 400;
+	font-size: 16px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 2;
+} 
+
+.text text {
+	line-height: 1;
+}
+
+#the-skin-is {
+	width:457px;
+	line-height:1.5;
+	font-size: 15px;
+}
+
+.description {
+	position: fixed;
+	top: 50px;
+	width: 25%;
+	height: 90%;
+	padding-bottom: 100px;
+	overflow: scroll;
+	padding-left: 15px;
+	font-weight: 300;
+	background-color: white;
+	box-shadow: 0 0 10px 15px #fff;
+}
+
+.description::-webkit-scrollbar {
+  display: none;
+}
+
+.description p {
+	font-size: 15px;
+	text-align: left;
+	margin: 10px;
+}
+
+.description a {
+	color: black;
+	text-decoration: none;
+}
+
+.description a:hover {
+	font-style: italic;
+}
+
+.description text, .text text {
+	font-size: 18px;
+	font-family: 'Roboto Mono', monospace;
+		line-height: 1;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+}
+
+.description span {
+	font-size: 13px;
+	font-style: italic;
+}
+
+.text span {
+	line-height: 2;
+}
+
+.critical text {
+	line-height:1.7;
+	font-family: Arial, Helvetica, sans-serif!important;
+	font-size: 16px;
+	letter-spacing: 0.7px;
+	word-spacing: 1px;
+	font-weight: 400;
+}
+
+.main-carousel {
+	height: 500px;
+	width: 70%;
+	left: 30%;
+	padding-top: 65px;
+}
+
+.carousel-cell img {
+	height: 500px;
+	width: auto;
+	padding-right: 10px;
+}
+
+#graph {
+	right: 0px;
+	position: absolute;
+	top: 30px;
+	overflow:hidden;
+	width:74%;
+	height:650px;
+	display: block;
+	margin-top: auto;
+	margin-left: auto;
+	border-radius: 0px;
+}
+
+/* CURRENT */
+
+.current div {
+	display: inline-table;
+	padding-bottom: 50px;
+}
+
+#bio {
+	width: 50%;
+	padding-left: 5%;
+	line-height: 1.9;
+	font-size: 16px;
+}
+
+#contact {
+	font-weight: 300;
+	width: 39%;
+	padding-left: 5%;
+	line-height: 2;
+		font-size: 16px;
+}
+
+.current a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+	font-size: 18px;
+		line-height: 1;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+}
+
+.current a:hover {
+	font-style: italic;
+}
+
+.blog {
+	width: 100%;
+	display: inline-table;
+	height: auto;
+	padding-bottom: 50px;
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+.blog img {
+	width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1500px;
+}
+
+
+/* PAST */
+
+#past {
+	line-height: 1.9;
+	padding-left: 5%;
+	padding-bottom: 40px;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+#past h2 {
+	line-height: 0.3;
+}
+
+#past a {
+	font-family: 'GT America';
+	font-weight: 300;
+	font-size: 15px;
+	letter-spacing: 0.7px;
+	word-spacing: 1px;
+}
+
+#past a:hover {
+
+}
+
+/*
+
+.blue:hover {
+	text-shadow: 0px 0px 10px blue;
+}
+
+.green:hover {
+	text-shadow: 0px 0px 10px green;
+}
+
+.yellow:hover {
+	text-shadow: 0px 0px 10px yellow;
+}
+
+.orange:hover {
+	text-shadow: 0px 0px 10px orange;
+}
+
+.red:hover {
+	text-shadow: 0px 0px 10px red;
+}
+
+.purple:hover {
+	text-shadow: 0px 0px 10px purple;
+} */
+
+@media screen and (max-width: 1050px) {
+
+/* TWO COLUMN */
+
+.index {
+    top: 100px;
+	position: relative;
+	height: 100%;
+	width: 687px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+}
+
+@media screen and (max-width: 720px) {
+	
+h2 {
+	font-size: 16px;
+}
+
+#past a {
+	font-size: 15px;
+	line-height: 2.5;
+	font-weight: 400;
+}
+	
+/* MOBILE MENU */	
+	
+#menu {
+	position: fixed;
+	width: 100%;
+	padding-left: 10px;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+#name {
+	width: 100%;
+	display: block;
+}
+
+/* MOBILE MAIN */
+
+#page img {
+	position: relative;
+	display: inline;
+}
+
+#main-page {  
+position: fixed;
+top: 60px;
+width: 100%;
+height: 2000px;
+	background-image: url("img/main-mobile.png");
+  background-repeat: repeat;
+}
+
+/* MOBILE CONTENT / ONE COLUMN */
+
+
+.box h1, .box h2 {
+	font-size: 15px;
+}
+
+.index {
+    top: 100px;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.main-img {
+	left: -200px;
+}
+
+.box {
+	display: block;
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	padding-bottom: 20px;
+}
+
+.description {
+	position: relative;
+	top: 20px; 
+	margin: 0%;
+	width: 100%;
+	padding: 0;
+	text-align: justify;
+	padding-bottom: 40px;
+}
+
+#graph {
+	right: 0px;
+	top: 0px;
+	position: relative;
+	overflow:hidden;
+	width:100%;
+	height:500px;
+	display: block;
+	margin-top: auto;
+	margin-left: auto;
+	border: 0px;
+}
+
+.text {
+	padding-top: 45px; 
+	margin: 0%;
+	padding-left: 4%;
+	width: 92%;
+	text-align: justify;
+	padding-bottom: 40px;
+}
+
+#the-skin-is {
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+	line-height:2;
+	font-size: 14px;
+	word-spacing: 0px;
+	letter-spacing: 0px;
+}
+
+.main-carousel {
+	height: 300px;
+	width: 100%;
+	left: 0%;
+	padding-top: 75px;
+}
+
+.carousel-cell img {
+	height: 300px;
+	width: auto;
+	padding-right: 5px;
+}
+
+.scan, .scan img {
+	height: 270px;
+	padding-right: 0px;
+}
+
+#bio, #contact {
+	padding-top: 20px;
+	padding-bottom: 0px;
+	text-align: center;
+	width: 90%;
+	padding-left: 5%;
+	font-size: 15px;
+}
+
+#contact h2 {
+	font-size: 18px;
+}
+
+.blog {
+	padding-bottom: 50px;
+	padding-top: 40px;
+	font-size: 16px;
+}
+
+.blog img {
+
+}
+
+#past {
+	padding-top: 20px;
+	width: 94%;
+	padding-left: 3%;
+	font-size: 15px;
+	height: auto;
+	padding-bottom: 50x;
+	word-spacing: 0;
+}
+	
+}
