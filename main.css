@@ -292,19 +292,6 @@ height: 3000px;
 	font-weight: 300;
 }
 
-.main-carousel {
-	height: 500px;
-	width: 70%;
-	left: 30%;
-	padding-top: 65px;
-}
-
-.carousel-cell {
-	height: 500px!important;
-	width: auto;
-	padding-right: 10px;
-}
-
 #graph {
 	right: 0px;
 	position: absolute;
@@ -438,6 +425,23 @@ height: 3000px;
 	margin-left: auto;
 }
 
+}
+
+@media screen and (min-width: 720px) {
+	
+.main-carousel {
+	height: 500px;
+	width: 70%;
+	left: 30%;
+	padding-top: 65px;
+}
+
+.carousel-cell {
+	height: 500px!important;
+	width: auto;
+	padding-right: 10px;
+}
+	
 }
 
 @media screen and (max-width: 720px) {
