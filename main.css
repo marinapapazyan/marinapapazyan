@@ -415,6 +415,8 @@ h2 {
 	overflow: hidden;
 }
 
+/*
+
 #main-page {  
 position: fixed;
 top: 60px;
@@ -424,8 +426,43 @@ background-image: url("img/main.png");
 background-repeat: repeat;
 }
 
+
+
 #main-page:hover {
 	transform: rotate(180deg);
+}
+
+*/
+
+#time {
+		-webkit-animation: rotation 120s infinite linear;
+		width: auto;
+		height: auto;
+		display: inline-table;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20%;
+		overflow: hidden;
+}
+
+#disguise {
+		-webkit-animation: rotation 60s infinite linear;
+		width: auto;
+		height: auto;
+		display: inline-table;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20%;
+		overflow: hidden;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
 }
 	
 .main-carousel {
@@ -472,9 +509,33 @@ h2 {
 
 /* MOBILE MAIN */
 
-#page img {
-	position: relative;
-	display: inline;
+#time {
+		-webkit-animation: rotation 120s infinite linear;
+		width: auto;
+		height: auto;
+		display: inline-table;
+		margin-left: 20%;
+		padding-top: 20%;
+		overflow: hidden;
+}
+
+#disguise {
+		-webkit-animation: rotation 60s infinite linear;
+		width: auto;
+		height: auto;
+		display: inline-table;
+		margin-left: 20%;
+		padding-top: 20%;
+		overflow: hidden;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
 }
 
 #main-page {  
