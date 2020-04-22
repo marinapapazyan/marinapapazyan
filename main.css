@@ -563,7 +563,7 @@ height: 2000px;
 }
 
 .main-carousel img {
-	height: 300px;
+	height: 300px!important;
 	width: auto;
 	padding-right: 5px;
 }
