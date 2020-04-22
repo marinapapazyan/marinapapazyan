@@ -26,10 +26,10 @@
 <div class="display">
 
 <div class="main-carousel js-flickity" id="images">
-  <div class="carousel-cell"><img src="img/if2-2a.jpg"></div>
-  <div class="carousel-cell"><img style="margin-left:-20px; padding-right: 50px;" src="img/if2-2b.jpg"></div>
-  <div class="carousel-cell"><img src="img/if2-3.jpg"></div>
-  <div class="carousel-cell"><img src="img/if2-4.jpg"></div>
+  <img class="carousel-cell" src="img/if2-2a.jpg">
+  <img class="carousel-cell" style="margin-left:-20px; padding-right: 50px;" src="img/if2-2b.jpg">
+  <img class="carousel-cell" src="img/if2-3.jpg">
+  <img class="carousel-cell" src="img/if2-4.jpg">
 </div>
 
 	<div class="description">
@@ -59,6 +59,7 @@ var flkty = new Flickity( elem, {
   // options
   cellAlign: 'left',
   contain: true,
+	imagesLoaded: true,
 });
 </script>
 
