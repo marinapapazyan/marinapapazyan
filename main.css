@@ -567,13 +567,13 @@ height: 2000px;
 }
 
 .carousel-cell {
-	height: 300px!important;
+	height: 300px;
 	width: auto;
 	padding-right: 5px;
 }
 
 .scan, .scan img {
-	height: 270px;
+	height: 270px!important;
 	padding-right: 0px;
 }
 
