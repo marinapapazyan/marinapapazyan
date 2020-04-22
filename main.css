@@ -597,9 +597,12 @@ background-image: url("img/main.png");
 .blog img {
 
 }
+	
+#past, #current {
+	padding-top: 60px!important;
+}
 
 #past {
-	padding-top: 20px;
 	width: 94%;
 	padding-left: 3%;
 	font-size: 15px;
