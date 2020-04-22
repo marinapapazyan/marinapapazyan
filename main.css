@@ -567,7 +567,7 @@ height: 2000px;
 }
 
 .carousel-cell img {
-	height: 300px;
+	height: 300px!important;
 	width: auto;
 	padding-right: 5px;
 }
