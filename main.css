@@ -598,8 +598,8 @@ background-image: url("img/main-mobile.png");
 
 }
 	
-#past, #current {
-	padding-top: 100px!important;
+.current {
+	padding-top: 90px!important;
 }
 
 #past {
