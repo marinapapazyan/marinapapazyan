@@ -511,7 +511,7 @@ h2 {
 
 #time {
 		-webkit-animation: rotation 120s infinite linear;
-		width: 151px;
+		width: 100px;
 		height: auto;
 		display: inline-table;
 		margin-left: 20%;
@@ -521,7 +521,7 @@ h2 {
 
 #disguise {
 		-webkit-animation: rotation 60s infinite linear;
-		width: 327px;
+		width: 218px;
 		height: auto;
 		display: inline-table;
 		margin-left: 20%;
