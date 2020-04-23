@@ -37,7 +37,10 @@ https://flickity.metafizzy.co
   display: block;
 }
 .flickity-prev-next-button .arrow {
-  fill: black;
+  fill: white;
+  stroke: black;
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
 }
 .flickity-prev-next-button.no-svg {
   color: black;
