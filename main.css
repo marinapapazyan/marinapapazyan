@@ -453,8 +453,8 @@ background-repeat: repeat;
 #disguise {
 		width: 327px;
 		height: auto;
-		bottom: 100px;
-		right: 50px;
+		bottom: 90px;
+		right: 100px;
 		position: absolute;
 		  animation-name: spin;
   animation-duration: 30s;
@@ -528,7 +528,7 @@ h2 {
 		height: auto;
 		position: absolute;
 		margin-left: 20%;
-		padding-top: 90%;
+		padding-top: 60%;
 				  animation-name: spin;
   animation-duration: 120s;
   animation-iteration-count: infinite;
