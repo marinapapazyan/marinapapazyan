@@ -447,36 +447,34 @@ background-repeat: repeat;
 */
 
 #time {
-		-webkit-animation: rotation 120s infinite linear;
-		width: 151px;
-		height: auto;
-		display: inline-table;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 20%;
-		overflow: hidden;
+		display: none;
 }
 
 #disguise {
-		-webkit-animation: rotation 60s infinite linear;
 		width: 327px;
 		height: auto;
-		display: inline-table;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 20%;
-		overflow: hidden;
+		bottom: 100px;
+		right: 50px;
+		position: absolute;
+		  animation-name: spin;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
 }
 
-@-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotate(0deg);
-		}
-		to {
-				-webkit-transform: rotate(359deg);
-		}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
-	
+
 .main-carousel {
 	height: 500px;
 	width: 70%;
@@ -522,33 +520,34 @@ h2 {
 /* MOBILE MAIN */
 
 #time {
-		-webkit-animation: rotation 120s infinite linear;
-		width: 100px;
-		height: auto;
-		display: inline-table;
-		margin-left: 20%;
-		padding-top: 20%;
-		overflow: hidden;
+		display: none;
 }
 
 #disguise {
-		-webkit-animation: rotation 60s infinite linear;
-		width: 218px;
+		width: 280px;
 		height: auto;
-		display: inline-table;
+		position: absolute;
 		margin-left: 20%;
-		padding-top: 20%;
-		overflow: hidden;
+		padding-top: 90%;
+				  animation-name: spin;
+  animation-duration: 120s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
 }
 
-@-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotate(0deg);
-		}
-		to {
-				-webkit-transform: rotate(359deg);
-		}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
+
 
 #main-page {  
 position: fixed;
