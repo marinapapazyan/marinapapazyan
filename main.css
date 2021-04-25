@@ -457,7 +457,7 @@ background-repeat: repeat;
 		right: 100px;
 		position: absolute;
 		  animation-name: spin;
-  animation-duration: 30s;
+  animation-duration: 100s;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
   /* transform: rotate(3deg); */
