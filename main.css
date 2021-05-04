@@ -488,6 +488,14 @@ background-repeat: repeat;
 	padding-right: 10px;
 }
 
+.vimeo {
+	width: 700px;
+	height: 400px;
+	margin-top: 0px;
+	margin-left: 0px;
+	border-radius: 0px;
+}
+
 }
 
 @media screen and (max-width: 720px) {
@@ -605,6 +613,14 @@ height: auto;
 	margin-top: auto;
 	margin-left: auto;
 	border: 0px;
+}
+
+.vimeo {
+	width: 350px;
+	height: 200px;
+	margin-top: 0px;
+	margin-left: 0px;
+	border-radius: 0px;
 }
 
 .text {
