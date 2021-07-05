@@ -343,9 +343,10 @@ h2 {
 .blog img {
 	width: 100%;
 	display: block;
+	margin-top: 5%;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 1500px;
+	max-width: 300px;
 }
 
 
@@ -691,6 +692,7 @@ height: auto;
 }
 
 .blog img {
+	margin-top: 0px;
 
 }
 	
