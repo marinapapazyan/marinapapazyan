@@ -172,8 +172,12 @@ h2 {
 	height: auto;
 }
 
-.box:hover img {
-	filter: brightness(100%);
+.box:hover h1 {
+	font-style: italic;
+}
+
+.box:hover p {
+	font-style: normal;
 }
 
 /* INDEX PAGES */
