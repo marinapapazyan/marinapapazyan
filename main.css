@@ -415,6 +415,54 @@ h2 {
 	text-shadow: 0px 0px 10px purple;
 } */
 
+/* WORK PAGE ADJUSTEMENTS FOR IPADS AND SMALLER DEVICES */
+
+@media screen and (min-width: 1175px) {
+
+
+.main-carousel {
+	height: 500px;
+	width: 70%;
+	left: 30%;
+	padding-top: 65px;
+}
+
+.carousel-cell {
+	height: 500px !important;
+	width: auto;
+	padding-right: 10px;
+}
+
+  }
+
+
+@media screen and (max-width: 1175px) {
+
+	.description {
+	position: relative;
+	top: 20px; 
+	margin: 0%;
+	width: 100%;
+	padding: 0;
+	text-align: justify;
+	padding-bottom: 40px;
+}
+
+.main-carousel {
+	height: 350px;
+	width: 100%;
+	left: 0px;
+	padding-top: 65px;
+}
+
+.carousel-cell {
+	height: 300px;
+	width: auto;
+	padding-right: 10px;
+}
+
+  }
+
 @media screen and (max-width: 1050px) {
 
 /* TWO COLUMN */
@@ -431,6 +479,12 @@ h2 {
 }
 
 @media screen and (min-width: 720px) {
+
+.carousel-cell {
+	height: 300px;
+	width: auto;
+	padding-right: 10px;
+}
 	
 /* MAIN */
 
@@ -487,19 +541,6 @@ background-repeat: repeat;
     to {
         transform:rotate(360deg);
     }
-}
-
-.main-carousel {
-	height: 500px;
-	width: 70%;
-	left: 30%;
-	padding-top: 65px;
-}
-
-.carousel-cell {
-	height: 500px;
-	width: auto;
-	padding-right: 10px;
 }
 
 .vimeo {
@@ -659,7 +700,7 @@ height: auto;
 }
 
 .main-carousel {
-	height: 300px;
+	height: 350px;
 	width: 100%;
 	left: 0%;
 	padding-top: 75px;
@@ -671,7 +712,12 @@ height: auto;
 	padding-right: 5px;
 }
 
-.scan, .scan img {
+.scan {
+	height: 340px!important;
+	padding-right: 0px;
+}
+
+.scan img {
 	height: 270px!important;
 	padding-right: 0px;
 }
