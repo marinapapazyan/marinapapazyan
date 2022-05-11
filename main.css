@@ -274,6 +274,10 @@ h2 {
 	word-spacing: 0px;
 }
 
+.description-link:hover {
+	font-style: normal !important;
+}
+
 .description span {
 	font-size: 13px;
 	font-style: italic;
