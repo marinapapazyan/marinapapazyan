@@ -78,6 +78,13 @@ body {
 	box-shadow: 0 0 10px 15px #e7e7ef;
 }
 
+
+.green {
+	background-color: #f2f5f2;
+	box-shadow: 0 0 10px 15px #f2f5f2;
+}
+
+
 #menu {
 	font-family: 'Roboto Mono', monospace;
 	font-weight: 400;
@@ -419,6 +426,23 @@ h2 {
 
 @media screen and (min-width: 1175px) {
 
+#opener {
+	padding-top: 20px;
+	padding-left: 40px;
+	width: 50%;
+	font-size: 18px;
+}
+
+#opener a {
+	color: black;
+	font-style: italic;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;	
+}
+
+#opener a:hover {
+	font-style: normal;	
+}
 
 .main-carousel {
 	height: 500px;
@@ -431,6 +455,22 @@ h2 {
 	height: 500px !important;
 	width: auto;
 	padding-right: 10px;
+}
+
+#disguise {
+		width: 327px;
+		height: auto;
+		bottom: 90px;
+		right: 100px;
+		position: absolute;
+		  animation-name: spin;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
 }
 
   }
@@ -459,6 +499,40 @@ h2 {
 	height: 300px;
 	width: auto;
 	padding-right: 10px;
+}
+
+#opener {
+	padding-top: 0px;
+	top: 0px;
+	position: relative;
+	padding-left: 5%;
+	width: 90%;
+	font-size: 16px;
+	text-align: center;
+}
+
+#opener a {
+	color: black;
+	font-style: italic;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;	
+}
+
+#disguise {
+		width: 45% !important;
+		height: auto;
+		top: 40px;
+		right: -160px;
+		position: relative;
+		display: block;
+		  animation-name: spin;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
 }
 
   }
@@ -518,22 +592,6 @@ background-repeat: repeat;
 		display: none;
 }
 
-#disguise {
-		width: 327px;
-		height: auto;
-		bottom: 90px;
-		right: 100px;
-		position: absolute;
-		  animation-name: spin;
-  animation-duration: 100s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; 
-  /* transform: rotate(3deg); */
-   /* transform: rotate(0.3rad);/ */
-   /* transform: rotate(3grad); */ 
-   /* transform: rotate(.03turn);  */
-}
-
 @keyframes spin {
     from {
         transform:rotate(0deg);
@@ -584,22 +642,6 @@ h2 {
 
 #time {
 		display: none;
-}
-
-#disguise {
-		width: 280px;
-		height: auto;
-		position: absolute;
-		margin-left: 20%;
-		padding-top: 60%;
-				  animation-name: spin;
-  animation-duration: 120s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; 
-  /* transform: rotate(3deg); */
-   /* transform: rotate(0.3rad);/ */
-   /* transform: rotate(3grad); */ 
-   /* transform: rotate(.03turn);  */
 }
 
 @keyframes spin {
