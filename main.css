@@ -125,6 +125,10 @@ h2 {
 	word-spacing: 0px;
 }
 
+#opener p {
+	filter: grayscale(100%)
+}
+
 /* INDEX */
 
 .index {
