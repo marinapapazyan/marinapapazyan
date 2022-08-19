@@ -475,11 +475,27 @@ h2 {
   animation-duration: 100s;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
+
   /* transform: rotate(3deg); */
    /* transform: rotate(0.3rad);/ */
    /* transform: rotate(3grad); */ 
    /* transform: rotate(.03turn);  */
 }
+
+#undisguise {
+		bottom: 25px;
+		right: 25px;
+		position: absolute;
+		border: 0;
+		opacity: 0%;
+		z-index: 1;
+
+}
+
+#undisguise:hover {
+		opacity: 100%;
+	}
+
 
   }
 
@@ -542,6 +558,11 @@ h2 {
    /* transform: rotate(3grad); */ 
    /* transform: rotate(.03turn);  */
 }
+
+#undisguise {
+	display: none;
+}
+
 
   }
 
