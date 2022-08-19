@@ -669,11 +669,15 @@ width: 100%;
 height: auto;
 }
 
-/* MOBILE CONTENT / ONE COLUMN */
+/* MOBILE CONTENT / TWO COLUMN - Modified on 19/08/2022 */
 
 
 .box h1, .box h2 {
-	font-size: 15px;
+	font-size: 13px;
+}
+
+.box p {
+	font-size: 11px;
 }
 
 .index {
@@ -682,7 +686,7 @@ height: auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
+	width: 98%;
 }
 
 .main-img {
@@ -690,11 +694,12 @@ height: auto;
 }
 
 .box {
-	display: block;
+	display: inline-table;
 	position: relative;
-	width: 100%;
+	width: 49%;
+	height: auto;
 	padding: 0px;
-	padding-bottom: 20px;
+	padding-bottom: 5% !important;
 }
 
 .description {
