@@ -282,13 +282,9 @@ h2 {
 	font-style: normal !important;
 }
 
-.description span {
+.description span, .text span {
 	font-size: 13px;
 	font-style: italic;
-}
-
-.text span {
-	line-height: 2;
 }
 
 .critical text {
