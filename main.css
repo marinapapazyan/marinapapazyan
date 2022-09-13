@@ -287,6 +287,10 @@ h2 {
 	font-style: italic;
 }
 
+.text span {
+	line-height: 1;
+}
+
 .critical text {
 	line-height:1.7;
 	font-family: 'GT America'!important;
