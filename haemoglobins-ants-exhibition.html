@@ -4,49 +4,45 @@
 <meta property="og:image" content="img/og.jpg" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Marina Papazyan" /> 
-<meta property="og:description" content="Index ᛫ Current ᛫ Past" />
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="main.css"/>
-<link rel="stylesheet" href="flickity.min.css" media="screen">
 <link rel="shortcut icon" href="img/icon.ico">
 </head>
 <title>Marina Papazyan</title>
 <body class="white noselect">
 
-<div class="white" id="menu">
-<a id="name" href="index.html">MARINA PAPAZYAN</a>
-<span id="sub">
-<a class="inactive" href="works.html">INDEX</a>
-<a class="inactive" href="current.html">CURRENT</a>
-<a class="inactive" href="past.html">PAST</a>
-</span>
-</div>
+<nav>
+		<a id="name" href="index.html">MARINA PAPAZYAN</a>
+		<a href="index.html#current">CURRENT</a>
+		<a href="index.html#back">INDEX</a>
+		<a href="index.html#past">PAST</a>
+		<button id="back" onclick="history.back()">BACK</button>
+</nav>
 
 <div class="display">
 
-<div class="main-carousel js-flickity" id="images">
-	<img class="carousel-cell" src="img/ha-poster.png">
-  <img class="carousel-cell" src="img/ha1.jpg">
-  <img class="carousel-cell" src="img/ha3.jpg">
-  <img class="carousel-cell" src="img/ha4.jpg">
-  <img class="carousel-cell" src="img/ha5.jpg">
-  <img class="carousel-cell" src="img/ha6.jpg">
-  <img class="carousel-cell" src="img/ha7.jpg">
-  <img class="carousel-cell" src="img/ha8.jpg">
-  <img class="carousel-cell" src="img/ha9.jpg">
-  <img class="carousel-cell" src="img/ha10.jpg">
-  <a href="haemoglobins-ants.html" target="_blank"><img class="carousel-cell" src="img/ha11.png"></a>
-  <a href="haemoglobins-ants.html" target="_blank"><img class="carousel-cell" src="img/ha12.png"></a>
-  <a href="haemoglobins-ants.html" target="_blank"><img class="carousel-cell" src="img/ha13.png"></a>
+<div id="images">
+	<img class="image first-image vertical" src="img/ha-poster.png">
+  <img class="image vertical" src="img/ha1.jpg">
+  <img class="image" src="img/ha3.jpg">
+  <img class="image" src="img/ha4.jpg">
+  <img class="image vertical" src="img/ha5.jpg">
+  <img class="image" src="img/ha6.jpg">
+  <img class="image vertical" src="img/ha7.jpg">
+  <img class="image" src="img/ha8.jpg">
+  <img class="image" src="img/ha9.jpg">
+  <img class="image vertical" src="img/ha10.jpg">
+  <a href="haemoglobins-ants.html" target="_blank"><img class="image" src="img/ha11.png"></a>
+  <a href="haemoglobins-ants.html" target="_blank"><img class="image" src="img/ha12.png"></a>
+  <a href="haemoglobins-ants.html" target="_blank"><img class="image last-image" src="img/ha13.png"></a>
 </div>
 
 	<div class="description">
 	<p>
 		<text>HAEMOGLOBINS & ANTS (2021)</text><br>
 		<span>solo exhibition at <a class="description-link" href="http://pose-hello.com" target="_blank"><u>poşe</u></a><br>&nbsp;<br>
-			(from left to right)
-		&nbsp;<br>
+		
 		1&nbsp;&nbsp;&nbsp;&nbsp;poster, designed by Mehmet Süzgün<br>
 		2&nbsp;&nbsp;&nbsp;&nbsp;<text style="font-size:14px;font-style:normal">FATHERBINDER</text> seashell, speaker, pipe clamp<br>
 		4&nbsp;&nbsp;&nbsp;&nbsp;exhibition view<br>
@@ -67,20 +63,6 @@
 		</p>
 		
 	</p>
-	</div></div>
-
-
-<script src="flickity.pkgd.min.js"></script>
-
-<script>
-var elem = document.querySelector('.main-carousel');
-var flkty = new Flickity( elem, {
-  // options
-  cellAlign: 'left',
-  contain: true,
-  imagesLoaded: true,
-});
-</script>
-
+	</div></div> 
 </body>
 </html>
