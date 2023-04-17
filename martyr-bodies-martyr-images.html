@@ -4,39 +4,36 @@
 <meta property="og:image" content="img/og.jpg" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Marina Papazyan" /> 
-<meta property="og:description" content="Index ᛫ Current ᛫ Past" />
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="main.css"/>
-<link rel="stylesheet" href="flickity.min.css" media="screen">
 <link rel="shortcut icon" href="img/icon.ico">
 </head>
 <title>Marina Papazyan</title>
 <body class="white noselect">
 
-<div class="white" id="menu">
-<a id="name" href="index.html">MARINA PAPAZYAN</a>
-<span id="sub">
-<a class="inactive" href="works.html">INDEX</a>
-<a class="inactive" href="current.html">CURRENT</a>
-<a class="inactive" href="past.html">PAST</a>
-</span>
-</div>
+<nav>
+		<a id="name" href="index.html">MARINA PAPAZYAN</a>
+		<a href="index.html#current">CURRENT</a>
+		<a href="index.html#back">INDEX</a>
+		<a href="index.html#past">PAST</a>
+		<button id="back" onclick="history.back()">BACK</button>
+</nav>
 
 <div class="display">
 
-<div class="main-carousel js-flickity scan" id="images">
-<img class="carousel-cell" src="img/mbmi2.jpg">
-<img class="carousel-cell" src="img/mbmi3.jpg">
-<img class="carousel-cell" src="img/mbmi4.jpg">
-<img class="carousel-cell" src="img/mbmi5.jpg">
-<img class="carousel-cell" src="img/mbmi6.jpg">
-<img class="carousel-cell" src="img/mbmi7.jpg">
-<img class="carousel-cell" src="img/mbmi8.jpg">
-<img class="carousel-cell" src="img/mbmi9.jpg">
-<img class="carousel-cell" src="img/mbmi10.jpg">
-<img class="carousel-cell" src="img/mbmi11.jpg">
-<img class="carousel-cell" src="img/mbmi12.jpg">
+<div class="scan" id="images">
+<img class="image first-image" src="img/mbmi2.jpg">
+<img class="image" src="img/mbmi3.jpg">
+<img class="image" src="img/mbmi4.jpg">
+<img class="image" src="img/mbmi5.jpg">
+<img class="image" src="img/mbmi6.jpg">
+<img class="image" src="img/mbmi7.jpg">
+<img class="image" src="img/mbmi8.jpg">
+<img class="image" src="img/mbmi9.jpg">
+<img class="image" src="img/mbmi10.jpg">
+<img class="image" src="img/mbmi11.jpg">
+<img class="image last-image" src="img/mbmi12.jpg">
 </div>
 
 <div class="description">
@@ -50,32 +47,9 @@
 ✳ SELF-REPRESENTATION: ACTING, IMAGINING, REMEMBERING<br>
 ✳ <i>LOUKIS THE MITE:</i> THE WITNESS AND THE MARTYR<br>
 ✳ <i>THE BULGARIAN MARTYRESSES:</i> MEDIUM SPECIFICITY AND VISUAL PLEASURE</text>
-	</p>&nbsp;<br>
-		<p style="line-height:2;">
-		The majority of the objects named and described in each chapter are bound together by their shared
-premise, claiming to represent martyrs or martyrdom
-while they differ in function. Proposed as tools for commemoration, but often transcending this alleged purpose by
-other means, some allude to propaganda, when others may
-be considered to be self-portraits or simply means for mourning. These differences are the text's immediate focus, as to
-“compare”, yet their specificities take over shortly thereafter and the mere issue of how they are different from one another does not
-seem as central as it once was.
-		</p>
+	</p>
 	</p>
 	</div></div>
-
-
-
-<script src="flickity.pkgd.min.js"></script>
-
-<script>
-var elem = document.querySelector('.main-carousel');
-var flkty = new Flickity( elem, {
-  // options
-  cellAlign: 'left',
-  contain: true,
-  imagesLoaded: true,
-});
-</script>
-
+ 
 </body>
 </html>
