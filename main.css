@@ -127,11 +127,7 @@ nav a {
 	height: auto;
 }
 
-/* Adding the Roboto links - such a design bro */
-
 #current a {
-	font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
-	font-weight: 200;
 	color: blue;
 }
 
@@ -193,7 +189,7 @@ nav a {
 /* CONTRIBUTIONS */
 
 #contributions h2 a {
-	font-weight: 200;
+	font-weight: 300;
 	color: blue;
 }
 
