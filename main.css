@@ -182,8 +182,25 @@ nav a {
 
 /* WORKS */
 
-#works {
+#works h2 a {
+	font-weight: 300;
+	color: blue;
+}
 
+#works img {
+	padding-top: 20px;
+	width: 200px;
+	margin-left: 70px;
+	filter: grayscale(100%) opacity(80%);
+}
+
+#works img:hover {	
+	filter: grayscale(0%);
+}
+
+
+.sub-img {
+	padding-top: 0px!important;
 }
 
 /* CONTRIBUTIONS */
@@ -375,9 +392,13 @@ nav a {
 	border-top: 1px blue dashed;
 }
 
-.index-column h3, .index-column h1, .index-column h2 {
+.index-column h3, .index-column h1, .index-column h2, #works img {
 	margin-left: 20px!important;
 } 
+
+#works img {
+	width: 70%;
+}
 
 }
 
