@@ -187,6 +187,10 @@ nav a {
 	color: blue;
 }
 
+#works h2 a:hover {
+	font-style: normal;
+}
+
 #works img {
 	padding-top: 20px;
 	width: 200px;
