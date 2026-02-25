@@ -25,11 +25,19 @@ src: local('GT America Regular'), url('fonts/GT America Regular.ttf') format('tr
 }
 
 @font-face {
-font-family: 'GT America';
+font-family: 'GT America VF';
 font-style: normal;
 font-weight: 600;
 font-display: fallback;
 src: local('GT America VF'), url('fonts/GT America VF.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'GT America VF';
+font-style: italic;
+font-weight: 600;
+font-display: fallback;
+src: local('GT America Italic VF'), url('fonts/GT America Italic VF.ttf') format('truetype');
 }
 
 /* Font 'GT America': Copyright 2016 by Nol Leu. All rights reserved. */
@@ -76,6 +84,7 @@ a:hover {
 /* MENU */
 
 nav  {
+	font-family: 'GT America VF', Arial, Helvetica, sans-serif;
 	display: block;
 	position: fixed;
 	width: 100%;
@@ -98,7 +107,7 @@ nav a {
 nav button {
 	background-color: transparent;
 	border: none;
-	font-family: 'GT America', Arial, Helvetica, sans-serif;;
+	font-family: 'GT America VF', Arial, Helvetica, sans-serif;
 	font-weight: 600;
 	padding-left: 1%;
 	height: 17px;
@@ -174,6 +183,7 @@ nav button:hover {
 }
 
 #index h3 {
+	font-family: 'GT America VF', Arial, Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 17px;
 	letter-spacing: 0px;
@@ -235,6 +245,7 @@ nav button:hover {
 }
 
 #past h2 {
+	font-family: 'GT America VF', Arial, Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 1;
@@ -247,6 +258,7 @@ nav button:hover {
 	line-height: 1;
 	letter-spacing: 0px;
 	word-spacing: 0px;
+	font-weight: 300;
 }
 
 /* INDEX PAGES */
@@ -266,7 +278,7 @@ nav button:hover {
 	height: 90%;
 	padding-bottom: 100px;
 	overflow: hidden;
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 15px;
 	display: block;
 	margin-right: auto;
@@ -317,6 +329,7 @@ nav button:hover {
 	letter-spacing: 0px;
 	word-spacing: 0px;
 	font-weight: 600;
+	font-family: 'GT America VF', Arial, Helvetica, sans-serif;
 }
 
 .description-link:hover {
@@ -370,7 +383,7 @@ nav button:hover {
 }
 
 #past h2 {
-	font-size: 15px;
+	font-size: 16px;
 }
 
 }
