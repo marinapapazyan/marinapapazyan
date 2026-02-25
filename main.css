@@ -24,6 +24,14 @@ font-display: fallback;
 src: local('GT America Regular'), url('fonts/GT America Regular.ttf') format('truetype');
 }
 
+@font-face {
+font-family: 'GT America';
+font-style: normal;
+font-weight: 600;
+font-display: fallback;
+src: local('GT America VF'), url('fonts/GT America VF.ttf') format('truetype');
+}
+
 /* Font 'GT America': Copyright 2016 by Nol Leu. All rights reserved. */
 
 
@@ -93,8 +101,7 @@ nav button {
 	font-family: 'GT America', Arial, Helvetica, sans-serif;;
 	font-weight: 600;
 	padding-left: 1%;
-	top: 6px;
-	height: 18px;
+	height: 17px;
 	cursor: pointer;
 	font-size: 17px;
 	line-height: 1;
