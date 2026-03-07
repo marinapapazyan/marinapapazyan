@@ -32,14 +32,6 @@ font-display: fallback;
 src: local('GT America VF'), url('fonts/GT America VF.ttf') format('truetype');
 }
 
-@font-face {
-font-family: 'GT America VF';
-font-style: italic;
-font-weight: 600;
-font-display: fallback;
-src: local('GT America Italic VF'), url('fonts/GT America Italic VF.ttf') format('truetype');
-}
-
 /* Font 'GT America': Copyright 2016 by Nol Leu. All rights reserved. */
 
 
@@ -77,9 +69,6 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	font-style: italic;
-}
 
 /* MENU */
 
@@ -104,6 +93,10 @@ nav a {
 	font-weight: 600;
 }
 
+nav a:hover {
+	color: #94fbff;
+}
+
 nav button {
 	background-color: transparent;
 	border: none;
@@ -120,7 +113,7 @@ nav button {
 }
 
 nav button:hover {
-	font-style: italic;
+	color: #94fbff!important;
 }
 
 /* CURRENT */
@@ -136,13 +129,18 @@ nav button:hover {
 }
 
 #current a {
-	color: blue;
+	border-bottom: 1px solid black;
+}
+
+#current a:hover {
+	color: black;
+	border-bottom: 1px solid #94fbff;
 }
 
 /* INDEX */
 
 #index {
-	border-top: 1px dashed blue;
+	border-top: 1px dashed #a2bac3;
 	width: 100%;
 	background-color: #f2f5f2;
 	display: inline-block;
@@ -151,10 +149,29 @@ nav button:hover {
 }
 
 #index hr {
-	border: 0.5px solid black;
+	border-top: 1px solid black!important;
 	width: 102%;
 	margin-top: -17px;
+	border: none;
 }
+
+#index h1 a {
+	border-bottom: 1px solid black;
+}
+
+ #index h2 a {
+	border-bottom: 1px dotted black;
+}
+
+#index h1 a:hover {
+	color: black;
+	border-bottom: 1px solid #94fbff;
+}   
+
+#index h2 a:hover {
+	color: black;
+	border-bottom: 1px dotted #94fbff;
+}   
 
 #index h1 {
 	padding-top: 20px;
@@ -170,10 +187,6 @@ nav button:hover {
 	line-height: 1.2;
 	font-weight: 200;
 	margin-left: 70px;
-}
-
-#index h2 a:hover {
-	font-style: italic!important;
 }
 
 .index-column {
@@ -193,15 +206,6 @@ nav button:hover {
 
 /* WORKS */
 
-#works h2 a {
-	font-weight: 300;
-	color: blue;
-}
-
-#works h2 a:hover {
-	font-style: normal;
-}
-
 #works img {
 	padding-top: 20px;
 	width: 200px;
@@ -213,6 +217,9 @@ nav button:hover {
 	filter: grayscale(0%);
 }
 
+#works a:hover {
+	color: #00FFF0; 
+ }
 
 .sub-img {
 	padding-top: 0px!important;
@@ -222,11 +229,6 @@ nav button:hover {
 
 #writing h2 a {
 	font-weight: 300;
-	color: blue;
-}
-
-#writing h2 a:hover {
-	font-style: normal;
 }
 
 /* PAST */
@@ -239,7 +241,7 @@ nav button:hover {
 	padding-right: 5%;
 	width: auto;
 	height: auto;
-	border-top: 1px dashed blue;
+	border-top: 1px dashed black;
 	background-color: #ECECEF;
 	padding-bottom: 50px;
 }
@@ -259,6 +261,14 @@ nav button:hover {
 	letter-spacing: 0px;
 	word-spacing: 0px;
 	font-weight: 300;
+}
+
+#past a {
+	border-bottom: 1px dotted black;
+}
+
+#past a:hover {
+	border-bottom: 1px dotted #94fbff;
 }
 
 /* INDEX PAGES */
@@ -314,13 +324,12 @@ nav button:hover {
 	margin: 10px;
 }
 
-.description a, .display a {
-	color: black;
-	text-decoration: none;
+.description a {
+	border-bottom: 1px solid black;
 }
 
-.description a:hover, .display a:hover {
-	font-style: italic;
+.description a:hover {
+	border-bottom: 1px solid #94fbff;
 }
 
 .description text, .text text {
