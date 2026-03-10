@@ -61,7 +61,11 @@ body {
 	letter-spacing: 0.7px;
 	word-spacing: 1px;
 	font-weight: 300;
-	overflow-x: hidden;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 a {
