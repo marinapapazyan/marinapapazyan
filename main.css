@@ -98,7 +98,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #94fbff;
+	color: #a2bac3;
 }
 
 nav button {
@@ -117,7 +117,7 @@ nav button {
 }
 
 nav button:hover {
-	color: #94fbff!important;
+	color: #a2bac3!important;
 }
 
 /* CURRENT */
@@ -138,7 +138,7 @@ nav button:hover {
 
 #current a:hover {
 	color: black;
-	border-bottom: 1px solid #94fbff;
+	border-bottom: 1px solid #a2bac3;
 }
 
 /* INDEX */
@@ -169,12 +169,12 @@ nav button:hover {
 
 #index h1 a:hover {
 	color: black;
-	border-bottom: 1px solid #94fbff;
+	border-bottom: 1px solid #a2bac3;
 }   
 
 #index h2 a:hover {
 	color: black;
-	border-bottom: 1px dotted #94fbff;
+	border-bottom: 1px dotted #a2bac3;
 }   
 
 #index h1 {
@@ -272,7 +272,7 @@ nav button:hover {
 }
 
 #past a:hover {
-	border-bottom: 1px dotted #94fbff;
+	border-bottom: 1px dotted #a2bac3;
 }
 
 /* INDEX PAGES */
@@ -333,7 +333,7 @@ nav button:hover {
 }
 
 .description a:hover {
-	border-bottom: 1px solid #94fbff;
+	border-bottom: 1px solid #a2bac3;
 }
 
 .description text, .text text {
